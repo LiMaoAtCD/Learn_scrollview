@@ -13,6 +13,7 @@
 		870FDA271C54B720009C16BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870FDA261C54B720009C16BE /* Assets.xcassets */; };
 		870FDA2A1C54B720009C16BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870FDA281C54B720009C16BE /* LaunchScreen.storyboard */; };
 		870FDA351C54B720009C16BE /* scrollviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FDA341C54B720009C16BE /* scrollviewTests.swift */; };
+		870FDA611C54D0F8009C16BE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FDA601C54D0F8009C16BE /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		870FDA301C54B720009C16BE /* scrollviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		870FDA341C54B720009C16BE /* scrollviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollviewTests.swift; sourceTree = "<group>"; };
 		870FDA361C54B720009C16BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870FDA601C54D0F8009C16BE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				870FDA1F1C54B720009C16BE /* AppDelegate.swift */,
 				870FDA211C54B720009C16BE /* ViewController.swift */,
 				870FDA231C54B720009C16BE /* Main.storyboard */,
+				870FDA601C54D0F8009C16BE /* TableViewController.swift */,
 				870FDA261C54B720009C16BE /* Assets.xcassets */,
 				870FDA281C54B720009C16BE /* LaunchScreen.storyboard */,
 				870FDA2B1C54B720009C16BE /* Info.plist */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				870FDA221C54B720009C16BE /* ViewController.swift in Sources */,
+				870FDA611C54D0F8009C16BE /* TableViewController.swift in Sources */,
 				870FDA201C54B720009C16BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +390,7 @@
 				870FDA3B1C54B720009C16BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		870FDA3C1C54B720009C16BE /* Build configuration list for PBXNativeTarget "scrollviewTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +399,7 @@
 				870FDA3E1C54B720009C16BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
